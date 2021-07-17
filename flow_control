@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f htmlup ]; then
+    echo "You have htmlup file"
+    exit 0
+else
+    echo "no htmlup file"
+    exit 1
+fi
