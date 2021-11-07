@@ -1,5 +1,5 @@
 #!/bin/bash
-#Simple script to update Ubuntu/Debian
+# Simple script to update Ubuntu/Debian
 sudo apt update -yy
 sudo apt upgrade -yy
 exit
