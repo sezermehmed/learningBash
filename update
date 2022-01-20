@@ -1,5 +1,5 @@
 #!/bin/bash
-# Simple script to update Ubuntu/Debian
+# Simple script to update Ubuntu/Debian and Arch Linux
 OS=$(uname -n)
 if [ "$OS" == "ubuntu" ] && [ "$OS" == "debian" ]; then
 sudo apt update -yy
