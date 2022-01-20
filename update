@@ -1,7 +1,12 @@
 #!/bin/bash
 # Simple script to update Ubuntu/Debian
+OS=$(uname -n)
+if [ "$OS" == "ubuntu" ] && [ "$OS" == "debian" ]; then
 sudo apt update -yy
 sudo apt upgrade -yy
+fi
+if [ "$OS" == "archlinux" ]; then
+	sudo pacman -Syu 
+fi
 exit
-
 
